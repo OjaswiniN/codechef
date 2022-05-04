@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+#define ll long long int
+using namespace std;
+ 
+void mainSolve()
+{
+    int x, h;
+    cin >> x >> h;
+    if (x >= h)
+        cout << "YES\n";
+    else
+        cout << "NO\n";
+}
+ 
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        mainSolve();
+    }
+    return 0;
+}
