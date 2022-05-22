@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--)
+    {
+	int NA,NB,NC,ND;
+	cin>>NA>>NB>>NC>>ND;
+	cout<< max({NA,NB,NC,ND})<<endl;
+    }
+	return 0;
+}
