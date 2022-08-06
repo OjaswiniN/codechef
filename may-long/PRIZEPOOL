@@ -10,4 +10,4 @@ using namespace std;
         cout<<sum<<endl;
      }
      return 0;
- }
+}
