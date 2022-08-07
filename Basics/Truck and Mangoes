@@ -11,6 +11,5 @@ int main() {
 		int ans=((z-y)/x);
 		cout<<ans<<endl;
 	}
-	
 	return 0;
 }
