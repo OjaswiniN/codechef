@@ -1,1 +1,14 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+ int t;
+ cin>>t;
+ while(t--){
+     int N,M,X;
+     cin>>N>>M>>X;
+     int cost=(2*N+2*M)*X;
+     cout<<cost<<endl;
+ }
+	return 0;
+}
