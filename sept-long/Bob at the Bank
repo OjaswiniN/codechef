@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int W,X,Y,Z;
+	    cin>>W>>X>>Y>>Z;
+	    int deposit=(W+(X-Y)*Z);
+	    cout<<deposit<<endl;
+	}
+	return 0;
+}
